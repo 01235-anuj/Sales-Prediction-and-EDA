@@ -47,4 +47,26 @@ The dataset includes features such as:
 - Clear visualization of categorical distributions helped in understanding customer behavior
 
 ## 📂 Folder Structure
+```supermarket-sales-analysis/
+│
+├── 📄 README.md                     # Project description and usage
+├── 📄 requirements.txt             # Python libraries needed
+├── 📄 .gitignore                   # Files/folders to ignore in version control
+│
+├── 📒 sales_Prediction_and_EDA.ipynb  # Main Jupyter Notebook
+│
+├── 📁 data/                        # Dataset storage
+│   └── supermarket_sales.csv
+│
+├── 📁 images/                      # Visualizations for README or documentation
+│   └── correlation_matrix.png
+│   └── model_accuracy_plot.png
+│
+├── 📁 src/                         # (Optional) Python scripts if modularized
+│   └── preprocessing.py
+│   └── model_comparison.py
+│
+└── 📁 outputs/                     # (Optional) Exported reports, model files
+    └── confusion_matrix.png
+    └── classification_report.txt
 
